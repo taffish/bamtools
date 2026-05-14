@@ -6,6 +6,12 @@ release = 1
 license = "Apache-2.0"
 main = "src/main.taf"
 
+[meta]
+domain = "bio"
+categories = ["genomics", "alignment", "bam"]
+keywords = ["bam", "sam", "alignment", "ngs", "filtering", "statistics"]
+description = "Toolkit for reading, writing, filtering, sorting, indexing, and summarizing BAM alignment files."
+
 [repository]
 url = "https://github.com/taffish/bamtools"
 
@@ -24,6 +30,10 @@ build_platforms = "linux/amd64,linux/arm64"
 [upstream]
 type = "github"
 repo = "pezmaster31/bamtools"
+license = "MIT"
+citation = "Barnett et al. 2011"
+doi = "10.1093/bioinformatics/btr174"
+pmid = "21493652"
 watch = "tags"
 strip_prefix = "v"
 
